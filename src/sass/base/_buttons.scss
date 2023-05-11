@@ -1,0 +1,42 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border: none;
+    font-weight: 500;
+    &_round {
+        border: 1px solid #FFFFFF;
+        border-radius: 100px;
+    }
+    &_oval {
+        border-radius: 30px;
+    }
+    &_square {
+        border-radius: 8px;
+    }
+    &_white {
+        background-color: #FFFFFF;
+        color: #1C7E66;
+        border: 1px solid #1C7E66;
+    }
+    &_dark {
+        background: #242424;
+        color: #FFFFFF;
+    }
+    &_grey {
+        background: #1C7E66;
+        color: #FFFFFF;
+    }
+    &_fs12 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    &_fs14 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    &_fs15 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+}

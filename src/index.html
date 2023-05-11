@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>UIB</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="header__logo">
+			<img src="img/logo.png" alt="logo">
+		</div>
+		<div class="header__select">
+			<select>
+				<option value="1">Русский</option>
+				<option value="2">English</option>
+			</select>
+		</div>
+		<ul class="menu">
+			<li>Об Университете</li>
+			<li>Поступающим</li>
+			<li>Студентам</li>
+			<li>Выпускникам</li>
+			<li>Новости</li>
+			<li>Контакты</li>
+		</ul>
+		<div class="header__btns">
+			<button class="btn btn_oval btn_white btn_fs12">Вход</button>
+			<button class="btn btn_oval btn_dark btn_fs12">Кнопка</button>
+		</div>
+	</header>
+	<section class="promo">
+		<div class="slider">
+			<div class="slider__wrapper">
+				<div class="slider__inner">
+					<div class="slider__slide">
+						<img class="slider__slide-bg" src="img/slide.png" alt="bg">
+						<img class="slider__slide-logo" src="img/unicon.png" alt="unicon">
+						<div class="slider__slide-header">Результаты 3 этапа олимпиады unicon</div>
+						<div class="slider__slide-subheader">Все подробности можно узнать перейдя по кнопке "подробнее"</div>
+						<button class="btn btn_dark btn_oval btn_fs15">Подробнее</button>
+					</div>
+					<div class="slider-slide">
+						<img class="slide-bg" src="img/slide.png" alt="bg">
+						<div class="slide-header">Slide 2</div>
+					</div>
+					<div class="slider-slide">
+						<img class="slide-bg" src="img/slide.png" alt="bg">
+						<div class="slide-header">Slide 3</div>
+					</div>
+				</div>
+			</div>
+			<button class="btn btn_dark btn_round slider__prev">
+				<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M11.3333 6.6667L11.3333 5.33336L3.33331 5.33336L6.99998 1.6667L6.05331 0.72003L0.773313 6.00003L6.05331 11.28L6.99998 10.3334L3.33331 6.6667L11.3333 6.6667Z" fill="white"/>
+			</button>
+			<button class="btn btn_dark btn_round slider__next">
+				<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M0.666687 6.6667L0.666686 5.33336L8.66669 5.33336L5.00002 1.6667L5.94669 0.72003L11.2267 6.00003L5.94669 11.28L5.00002 10.3334L8.66669 6.6667L0.666687 6.6667Z" fill="white"/>
+					</svg>
+			</button>
+		</div>
+		<div class="promo__nav">
+			<button class="btn btn_square promo__nav-btn">Международное сотрудничество</button>
+			<button class="btn btn_square promo__nav-btn_active">Олимпиада UNICON</button>
+			<button class="btn btn_square promo__nav-btn">Наука</button>
+			<button class="btn btn_square promo__nav-btn">Кафедры</button>
+			<button class="btn btn_square promo__nav-btn">Гранты и скидки</button>
+			<button class="btn btn_square promo__nav-btn">Проекты и Студенческая жизнь Университета UIB</button>
+		</div>
+	</section>
+	<section class="about">
+		<div class="container">
+			<div class="about__grid">
+				<div>
+					<h1 class="about__title">Kenzhegali Sagadiyev<br>University of international Business</h1>
+					<div class="about__subtitle">mission</div>
+					<p class="about__descr">Knowledge generation, training of in-demand, successful specialists with modern competencies and actively influencing the socio-economic development of Kazakhstan in a changing world.</p>
+				</div>
+				<div>
+					<img class="about__img" src="img/about.png" alt="about">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="events">
+		<div class="container">
+			<h2 class="events__title">UIB Events</h2>
+			<div class="events__grid">
+				<div class="events__card">
+					<div class="events__img">
+						<img src="img/event.png" alt="event">
+					</div>
+					<div class="events__date">
+						<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M12.6667 2.00033H12V0.666992H10.6667V2.00033H5.33333V0.666992H4V2.00033H3.33333C2.6 2.00033 2 2.59366 2 3.33366V12.667C2 13.407 2.6 14.0003 3.33333 14.0003H12.6667C13.4067 14.0003 14 13.407 14 12.667V3.33366C14 2.59366 13.4067 2.00033 12.6667 2.00033ZM12.6667 12.667H3.33333V6.00033H12.6667V12.667ZM12.6667 4.66699H3.33333V3.33366H12.6667M4.66667 7.33366H8V10.667H4.66667" fill="white"/>
+						</svg>
+						<span>24.01.23</span>
+					</div>
+					<div class="events__card-title">Курс среди студентов UIB ко дню Республики</div>
+					<button class="btn btn_square btn_grey btn_fs14 events__btn">Подробнее</button>
+				</div>
+				<div>
+					<div class="events__calend">
+						<div class="events__calend-title">
+							<img src="svg/calendar-month.svg" alt="calendar-month">
+							<span>Календарь событий</span>
+							<a href=""><img src="svg/chevron-down.svg" alt="chevron-down"></a>
+						</div>
+					</div>
+					<div class="events__list">
+						<div class="events__list-item">
+							<div class="events__list-date">26
+								<span>Январь</span>
+							</div>
+							<div class="events__list-text">Курс среди студентов UIB ко дню Республики</div>
+							<a href="">Подробнее</a>
+						</div>
+						<div class="events__list-divider"></div>
+						<div class="events__list-item">
+							<div class="events__list-date">30
+								<span>Январь</span>
+							</div>
+							<div class="events__list-text">Курс среди студентов UIB ко дню Республики</div>
+							<a href="">Подробнее</a>
+						</div>
+						<div class="events__list-divider"></div>
+						<div class="events__list-item">
+							<div class="events__list-date">09
+								<span>Февраль</span>
+							</div>
+							<div class="events__list-text">Курс среди студентов UIB ко дню Республики</div>
+							<a href="">Подробнее</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="news">
+		<div class="container">
+			<h2 class="news__title">
+				<span>Последние новости от UIB</span>
+				<button class="btn btn_white btn_oval btn_fs14">Все новости</button>
+			</h2>
+			<div class="news__grid">
+				<div class="news__item">
+					<img class="news__img" src="img/news1.png" alt="news1">
+					<div class="news__date">
+						<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M12.6667 2.00033H12V0.666992H10.6667V2.00033H5.33333V0.666992H4V2.00033H3.33333C2.6 2.00033 2 2.59366 2 3.33366V12.667C2 13.407 2.6 14.0003 3.33333 14.0003H12.6667C13.4067 14.0003 14 13.407 14 12.667V3.33366C14 2.59366 13.4067 2.00033 12.6667 2.00033ZM12.6667 12.667H3.33333V6.00033H12.6667V12.667ZM12.6667 4.66699H3.33333V3.33366H12.6667M4.66667 7.33366H8V10.667H4.66667" fill="#C2C2C2"/>
+						</svg>						
+						<span>24.01.23</span>
+					</div>
+					<div class="news__subtitle">Новостной заголовок для университета</div>
+					<div class="news__descr">Knowledge generation, training of in-demand, successful specialists with moder...</div>
+					<button class="btn btn_white btn_square btn_fs12 news__btn">Подробнее</button>
+				</div>
+				<div class="news__item">
+					<img class="news__img" src="img/news2.png" alt="news2">
+					<div class="news__date">
+						<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M12.6667 2.00033H12V0.666992H10.6667V2.00033H5.33333V0.666992H4V2.00033H3.33333C2.6 2.00033 2 2.59366 2 3.33366V12.667C2 13.407 2.6 14.0003 3.33333 14.0003H12.6667C13.4067 14.0003 14 13.407 14 12.667V3.33366C14 2.59366 13.4067 2.00033 12.6667 2.00033ZM12.6667 12.667H3.33333V6.00033H12.6667V12.667ZM12.6667 4.66699H3.33333V3.33366H12.6667M4.66667 7.33366H8V10.667H4.66667" fill="#C2C2C2"/>
+						</svg>	
+						<span>24.01.23</span>
+					</div>
+					<div class="news__subtitle">Новостной заголовок для университета</div>
+					<div class="news__descr">Knowledge generation, training of in-demand, successful specialists with moder...</div>
+					<button class="btn btn_white btn_square btn_fs12 news__btn">Подробнее</button>
+				</div>
+				<div class="news__item">
+					<img class="news__img" src="img/news3.png" alt="news3">
+					<div class="news__date">
+						<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M12.6667 2.00033H12V0.666992H10.6667V2.00033H5.33333V0.666992H4V2.00033H3.33333C2.6 2.00033 2 2.59366 2 3.33366V12.667C2 13.407 2.6 14.0003 3.33333 14.0003H12.6667C13.4067 14.0003 14 13.407 14 12.667V3.33366C14 2.59366 13.4067 2.00033 12.6667 2.00033ZM12.6667 12.667H3.33333V6.00033H12.6667V12.667ZM12.6667 4.66699H3.33333V3.33366H12.6667M4.66667 7.33366H8V10.667H4.66667" fill="#C2C2C2"/>
+						</svg>	
+						<span>24.01.23</span>
+					</div>
+					<div class="news__subtitle">Новостной заголовок для университета</div>
+					<div class="news__descr">Knowledge generation, training of in-demand, successful specialists with moder...</div>
+					<button class="btn btn_white btn_square btn_fs12 news__btn">Подробнее</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<script src="js/script.js"></script>
+</body>
+</html>
