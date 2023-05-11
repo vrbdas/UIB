@@ -18,14 +18,28 @@
         background-color: #FFFFFF;
         color: #1C7E66;
         border: 1px solid #1C7E66;
+        &:hover {
+            background: #F2F4F7;
+        }
     }
     &_dark {
         background: #242424;
         color: #FFFFFF;
+        &:hover {
+            background: #000;
+        }
     }
     &_grey {
         background: #1C7E66;
         color: #FFFFFF;
+        &:hover {
+            background: #186b56;
+        }
+    }
+    &_transp {
+        background: transparent;
+        color: #FFFFFF;
+        border: 1px solid #1C7E66;
     }
     &_fs12 {
         font-size: 12px;
