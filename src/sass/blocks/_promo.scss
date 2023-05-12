@@ -1,31 +1,31 @@
 .promo {
     min-height: 540px;
-    .slider {
+    &__slider {
         height: 440px;
         position: relative;
-        &__wrapper {
+        &-wrapper {
             width: 100%;
             height: 100%;
             overflow: hidden;
         }
-        &__inner {
+        &-inner {
             height: 100%;
         }
-        &__prev {
+        &-prev {
             position: absolute;
             width: 44px;
             height: 44px;
             left: 65px;
             top: 198px;
         }
-        &__next {
+        &-next {
             position: absolute;
             width: 44px;
             height: 44px;
             right: 65px;
             top: 198px;
         }
-        &__slide {
+        &-slide {
             height: 100%;
             position: relative;
             &-bg {
