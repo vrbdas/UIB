@@ -10,7 +10,7 @@
 <body>
 	<header class="header">
 		<div class="header__logo">
-			<img src="img/logo.png" alt="logo">
+			<img src="img/header-logo.png" alt="logo">
 		</div>
 		<div class="header__select">
 			<select>
@@ -193,12 +193,12 @@
 				<div class="expo__grid">
 					<div class="expo__item">
 						<span class="expo__item-title">Просвещение<br>2023</span>
-						<span class="expo__item-descr">Текст рыба кстати, элементы политического процесса лишь добавляют фракционных.</span>
+						<span class="expo__item-descr">Кстати, элементы политического процесса лишь добавляют фракционных.</span>
 						<button class="btn btn_transp btn_square btn_fs12">Подробнее</button>
 					</div>
 					<div class="expo__item expo__item_active">
 						<span class="expo__item-title">UIB Green House<br>Fest</span>
-						<span class="expo__item-descr">Текст рыба противоположная точка зрения подразумевает, что интерактивные прототипы обнародованы.</span>
+						<span class="expo__item-descr">Противоположная точка зрения подразумевает, что интерактивные прототипы обнародованы.</span>
 						<button class="btn btn_transp btn_square btn_fs12">Подробнее</button>
 					</div>
 					<div class="expo__item">
@@ -296,8 +296,175 @@
 		</div>
 	</section>
 	<section class="social">
-
+		<div class="container">
+			<div class="social__grid">
+				<div class="social__youtube">
+					<h2 class="social__youtube-title">Мы в YouTube</h2>
+					<div class="social__slider">
+						<div class="social__slider-wrapper">
+							<div class="social__slider-inner">
+								<div class="social__slider-slide">
+									<img src="img/youtube-preview.jpg" alt="youtube-preview">
+								</div>
+							</div>
+						</div>
+						<button class="btn btn_dark btn_round social__slider-prev">
+							<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M11.3333 6.6667L11.3333 5.33336L3.33331 5.33336L6.99998 1.6667L6.05331 0.72003L0.773313 6.00003L6.05331 11.28L6.99998 10.3334L3.33331 6.6667L11.3333 6.6667Z" fill="white"/>
+							</svg>
+						</button>
+						<button class="btn btn_dark btn_round social__slider-next">
+							<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M0.666687 6.6667L0.666686 5.33336L8.66669 5.33336L5.00002 1.6667L5.94669 0.72003L11.2267 6.00003L5.94669 11.28L5.00002 10.3334L8.66669 6.6667L0.666687 6.6667Z" fill="white"/>
+							</svg>
+						</button>
+					</div>
+					<button class="btn btn_white btn_oval btn_fs12 social__youtube-btn">Перейти в YouTube</button>
+				</div>
+				<div class="social__instagram">
+					<h2 class="social__instagram-title">Мы в Instagram</h2>
+					<div class="social__instagram-img">
+						<img src="img/instagram-preview.png" alt="instagram-preview">
+					</div>
+					<button class="btn btn_white btn_oval btn_fs12 social__instagram-btn">Перейти в Instagram</button>
+				</div>
+			</div>
+		</div>
 	</section>
+	<section class="contacts">
+		<div class="container">
+			<div class="contacts__grid">
+				<div class="contacts__feedback">
+					<h2 class="contacts__feedback-title">Остались вопросы?</h2>
+					<div class="contacts__feedback-subtitle">Оставьте свои контактные данные и мы с вами свяжемся.</div>
+					<form class="contacts__form" action="">
+						<div class="contacts__form-input">
+							<label for="name">Имя</label>
+							<input required class="contacts__form-name" type="text" name="name" placeholder="Введите ваше имя">
+						</div>
+						<div class="contacts__form-input">
+							<label for="phone">Телефон</label>
+							<input required class="contacts__form-phone" type="phone" name="phone" placeholder="Введите ваш телефон">
+						</div>
+						<div class="contacts__form-input">
+							<label for="email">Почта</label>
+							<input required class="contacts__form-email" type="email" name="email" placeholder="Введите вашу почту">
+						</div>
+						<button class="btn btn_grey btn_oval btn_fs14 contacts__form-btn">Отправить</button>
+					</form>
+				</div>
+				<div class="contacts__map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.3865458552127!2d76.94744097849568!3d43.24171616611383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836ee584fe528b%3A0xcb1413802f5325fb!2z0KPQvdC40LLQtdGA0YHQuNGC0LXRgiDQnNC10LbQtNGD0L3QsNGA0L7QtNC90L7Qs9C-INCR0LjQt9C90LXRgdCw!5e0!3m2!1sru!2skz!4v1683900397917!5m2!1sru!2skz" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="footer__main">
+			<div class="container">
+				<div class="footer__grid">
+					<div class="footer__logo">
+						<img class="footer__logo-img" src="img/logo.png" alt="logo">
+						<img class="footer__logo-text" src="img/logo-text.png" alt="logo-text">
+						<div class="footer__logo-social">
+							<a href="">
+								<img src="svg/instagram.svg" alt="instagram">
+							</a>
+							<a href="">
+								<img src="svg/tiktok.svg" alt="tiktok">
+							</a>
+							<a href="">
+								<img src="svg/facebook-f.svg" alt="facebook">
+							</a>
+							<a href="">
+								<img src="svg/youtube.svg" alt="youtube">
+							</a>
+							<a href="">
+								<img src="svg/whatsapp.svg" alt="whatsapp">
+							</a>
+							<a href="">
+								<img src="svg/telegram.svg" alt="telegram">
+							</a>
+						</div>
+					</div>
+						<div class="footer__item">
+							<div class="footer__title">Об Университете</div>
+							<a class="footer__link" href="">Миссия университета</a>
+							<a class="footer__link" href="">История университета</a>
+							<a class="footer__link" href="">Лицензия и аккредитации</a>
+							<a class="footer__link" href="">Администрация</a>
+							<a class="footer__link" href="">Центр обеспечения качества</a>
+							<a class="footer__link" href="">Ученый совет</a>
+							<a class="footer__link" href="">Вакансии</a>
+						</div>
+					<div class="footer__item">
+						<div class="footer__title">Поступающим</div>
+						<a class="footer__link" href="">Бакалавриат - APP</a>
+						<a class="footer__link" href="">Магистратура - APP</a>
+						<a class="footer__link" href="">MBA - APP</a>
+						<a class="footer__link" href="">DBA - APP</a>
+						<a class="footer__link" href="">Докторантура</a>
+						<a class="footer__link" href="">Перевод в UIB - Front</a>
+						<a class="footer__link" href="">Гостиницы и хостелы</a>
+					</div>
+					<div class="footer__item">
+						<div class="footer__title">Студентам</div>
+						<a class="footer__link" href="">Академический календарь</a>
+						<a class="footer__link" href="">Контакты</a>
+						<a class="footer__link" href="">Центр карьеры</a>
+						<a class="footer__link" href="">Памятка</a>
+						<a class="footer__link" href="">Кодекс чести</a>
+						<a class="footer__link" href="">Front UIB</a>
+					</div>
+					<div class="footer__col">
+						<div class="footer__item">
+							<div class="footer__title">Выпускникам</div>
+							<a class="footer__link" href="">История выпускников</a>
+							<a class="footer__link" href="">Центр карьеры</a>
+							<a class="footer__link" href="">Ассоциация выпускников</a>
+						</div>
+						<div class="footer__item">
+							<div class="footer__title">Информация</div>
+							<a class="footer__link" href="">Новости</a>
+							<a class="footer__link" href="">Контакты</a>
+						</div>
+					</div>
+					<div class="footer__contacts">
+						<div class="footer__contacts-title">
+							<div class="footer__title">Контакты</div>
+						</div>
+						<div class="footer__contacts-email">
+							<div class="footer__contacts-label">e-mail:</div>
+							<div class="footer__title">uib@uib.kz</div>
+						</div>
+						<div class="footer__contacts-tel">
+							<div class="footer__contacts-label">Телефон:</div>
+							<div class="footer__title">+ 7 (727) 259-80-05</div>
+						</div>
+						<div class="footer__contacts-address">
+							<div class="footer__contacts-label">Адрес:</div>
+							<div class="footer__title">г. Алматы, проспект Абая 8а (уг. ул. Назарбаева)</div>
+						</div>
+						<div class="footer__contacts-open">
+							<div class="footer__contacts-label">Режим работы:</div>
+							<div class="footer__title">Понедельник — Пятница с 09.00 до 18.00</div>
+						</div>
+						<div class="footer__btn">
+							<img src="svg/chevron-up.svg" alt="up">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__bottom">
+			<div class="container">
+				<div class="footer__bottom-flex">
+					<div class="footer__bottom-text">© ТОО «Университет международного бизнеса» 1992-2023</div>
+					<div class="footer__bottom-text">Сайт разработан в компании BestSolutions</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 
 	<script src="js/script.js"></script>
 </body>

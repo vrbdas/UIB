@@ -1,0 +1,64 @@
+.contacts {
+    min-height: 497px;
+    padding-top: 80px;
+    &__grid {
+        display: grid;
+        grid-template-columns: 353px 767px;
+        gap: 40px;
+    }
+    &__feedback {
+        padding: 30px;
+        box-shadow: 0px 15px 60px #E4E9F0;
+        border-radius: 14px;
+        &-title {
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 33px;
+            letter-spacing: 0.05em;
+            color: #212121;
+            margin-bottom: 16px;
+        }
+        &-subtitle {
+            font-family: 'Open Sans';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #686868;
+            margin-bottom: 30px;
+        }
+    }
+    &__form {
+        &-input {
+            &:nth-last-of-type(1) {
+                margin-bottom: 40px;
+            }
+            margin-bottom: 16px;
+            input {
+                width: 293px;
+                height: 44px;
+                background: #F2F4F7;
+                border-radius: 8px;
+                border: none;
+                padding: 0 16px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                color: #212121;
+            }
+            label {
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                color: #212121;
+            }
+        }
+        &-btn {
+            width: 293px;
+            height: 48px;
+        }
+    }
+    &__map {
+        border-radius: 14px;
+        overflow: hidden;
+    }
+}
