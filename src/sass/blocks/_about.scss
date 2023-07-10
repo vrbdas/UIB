@@ -1,10 +1,10 @@
 .about {
-    min-height: 440px;
     padding-top: 60px;
     &__grid {
         display: grid;
-        grid-template-columns: 472px 590px;
-        gap: 91px;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 90px;
     }
     &__title {
         font-weight: 700;

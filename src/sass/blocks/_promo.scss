@@ -1,5 +1,4 @@
 .promo {
-    min-height: 540px;
     &__slider {
         height: 440px;
         position: relative;
@@ -90,6 +89,7 @@
             line-height: 18px;
             color: #212121;
             position: relative;
+            padding: 5px;
             &:hover {
                 &::before {
                     border: 1px solid #186b56;

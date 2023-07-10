@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>UIB</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
 	<header class="header">
@@ -20,16 +20,13 @@
 		</div>
 		<ul class="menu">
 			<li>Об Университете</li>
-			<li>Поступающим</li>
-			<li>Студентам</li>
-			<li>Выпускникам</li>
+			<li>События</li>
 			<li>Новости</li>
+			<li>Студентам</li>
+			<li>Поступающим</li>
 			<li>Контакты</li>
 		</ul>
-		<div class="header__btns">
-			<button class="btn btn_oval btn_white btn_fs12">Вход</button>
-			<button class="btn btn_oval btn_dark btn_fs12">Кнопка</button>
-		</div>
+		<button class="btn btn_oval btn_dark btn_fs12 header__btn">Связаться с нами</button>
 	</header>
 	<section class="promo">
 		<div class="promo__slider">
@@ -39,7 +36,7 @@
 						<img class="promo__slider-slide-bg" src="img/slide.png" alt="bg">
 						<img class="promo__slider-slide-logo" src="img/unicon.png" alt="unicon">
 						<div class="promo__slider-slide-header">Результаты 3 этапа олимпиады unicon</div>
-						<div class="promo__slider-slide-subheader">Все подробности можно узнать перейдя по кнопке "подробнее"</div>
+						<div class="promo__slider-slide-subheader">Все подробности можно узнать, перейдя по кнопке "Подробнее"</div>
 						<button class="btn btn_dark btn_oval btn_fs15">Подробнее</button>
 					</div>
 					<!-- <div class="promo__slider-slide">
@@ -64,21 +61,20 @@
 			</button>
 		</div>
 		<div class="promo__nav">
-			<button class="btn btn_square promo__nav-btn">Международное сотрудничество</button>
 			<button class="btn btn_square promo__nav-btn promo__nav-btn_active">Олимпиада UNICON</button>
+			<button class="btn btn_square promo__nav-btn">Международное сотрудничество</button>
 			<button class="btn btn_square promo__nav-btn">Наука</button>
 			<button class="btn btn_square promo__nav-btn">Кафедры</button>
 			<button class="btn btn_square promo__nav-btn">Гранты и скидки</button>
-			<button class="btn btn_square promo__nav-btn">Проекты и Студенческая жизнь Университета UIB</button>
 		</div>
 	</section>
 	<section class="about">
 		<div class="container">
 			<div class="about__grid">
 				<div>
-					<h1 class="about__title">Kenzhegali Sagadiyev<br>University of international Business</h1>
-					<div class="about__subtitle">mission</div>
-					<p class="about__descr">Knowledge generation, training of in-demand, successful specialists with modern competencies and actively influencing the socio-economic development of Kazakhstan in a changing world.</p>
+					<h1 class="about__title">Кенжегали Сагадиев<br>Университет международного бизнеса</h1>
+					<div class="about__subtitle">Миссия</div>
+					<p class="about__descr">Генерация знаний, подготовка востребованных, успешных специалистов с современными компетенциями и активное влияние на социально-экономическое развитие Казахстана в меняющемся мире.</p>
 				</div>
 				<div>
 					<img class="about__img" src="img/about.png" alt="about">
@@ -88,29 +84,30 @@
 	</section>
 	<section class="events">
 		<div class="container">
-			<h2 class="events__title">UIB Events</h2>
+			<h2 class="events__title">События</h2>
 			<div class="events__grid">
 				<div class="events__card">
-					<div class="events__img">
+					<div class="events__card-img">
 						<img src="img/event.png" alt="event">
 					</div>
-					<div class="events__date">
-						<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M12.6667 2.00033H12V0.666992H10.6667V2.00033H5.33333V0.666992H4V2.00033H3.33333C2.6 2.00033 2 2.59366 2 3.33366V12.667C2 13.407 2.6 14.0003 3.33333 14.0003H12.6667C13.4067 14.0003 14 13.407 14 12.667V3.33366C14 2.59366 13.4067 2.00033 12.6667 2.00033ZM12.6667 12.667H3.33333V6.00033H12.6667V12.667ZM12.6667 4.66699H3.33333V3.33366H12.6667M4.66667 7.33366H8V10.667H4.66667" fill="white"/>
-						</svg>
-						<span>24.01.23</span>
+					<div class="events__card-content">
+						<div class="events__card-title">Курс среди студентов UIB ко дню Республики</div>
+						<div class="events__card-date">
+							<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M12.6667 2.00033H12V0.666992H10.6667V2.00033H5.33333V0.666992H4V2.00033H3.33333C2.6 2.00033 2 2.59366 2 3.33366V12.667C2 13.407 2.6 14.0003 3.33333 14.0003H12.6667C13.4067 14.0003 14 13.407 14 12.667V3.33366C14 2.59366 13.4067 2.00033 12.6667 2.00033ZM12.6667 12.667H3.33333V6.00033H12.6667V12.667ZM12.6667 4.66699H3.33333V3.33366H12.6667M4.66667 7.33366H8V10.667H4.66667" fill="white"/>
+							</svg>
+							<span>24.01.23</span>
+						</div>
+						<button class="btn btn_square btn_grey btn_fs14 events__card-btn">Подробнее</button>
 					</div>
-					<div class="events__card-title">Курс среди студентов UIB ко дню Республики</div>
-					<button class="btn btn_square btn_grey btn_fs14 events__btn">Подробнее</button>
 				</div>
 				<div class="events__list">
 					<div class="events__list-title">
 						<img src="svg/calendar-month.svg" alt="calendar-month">
 						<span>Календарь событий</span>
-						<a href=""><img src="svg/chevron-down.svg" alt="chevron-down"></a>
 					</div>
 					<div class="events__list-item">
-						<div class="events__list-date">26
+						<div class="events__list-date">24
 							<span>Январь</span>
 						</div>
 						<div class="events__list-text">
@@ -123,7 +120,7 @@
 							<span>Январь</span>
 						</div>
 						<div class="events__list-text">
-							<span>Курс среди студентов UIB ко дню Республики</span>
+							<span>День открытых дверей: возможности и преимущества обучения в нашем университете</span>
 							<a href="">Подробнее</a>
 						</div>
 					</div>
@@ -132,7 +129,7 @@
 							<span>Февраль</span>
 						</div>
 						<div class="events__list-text">
-							<span>Курс среди студентов UIB ко дню Республики</span>
+							<span>Карьерная ярмарка: свежие перспективы для студентов и выпускников</span>
 							<a href="">Подробнее</a>
 						</div>
 					</div>
@@ -143,7 +140,7 @@
 	<section class="news">
 		<div class="container">
 			<h2 class="news__title">
-				<span>Последние новости от UIB</span>
+				<span>Последние новости</span>
 				<button class="btn btn_white btn_oval btn_fs14">Все новости</button>
 			</h2>
 			<div class="news__grid">
@@ -155,8 +152,8 @@
 						</svg>						
 						<span>24.01.23</span>
 					</div>
-					<div class="news__subtitle">Новостной заголовок для университета</div>
-					<div class="news__descr">Knowledge generation, training of in-demand, successful specialists with moder...</div>
+					<div class="news__subtitle">Новая программа для будущих лидеров</div>
+					<div class="news__descr">Университет международного бизнеса открывает новую программу обучения для будущих лидеров</div>
 					<button class="btn btn_white btn_square btn_fs12 news__btn">Подробнее</button>
 				</div>
 				<div class="news__item">
@@ -167,8 +164,8 @@
 						</svg>	
 						<span>24.01.23</span>
 					</div>
-					<div class="news__subtitle">Новостной заголовок для университета</div>
-					<div class="news__descr">Knowledge generation, training of in-demand, successful specialists with moder...</div>
+					<div class="news__subtitle">Студенты-победители на международных соревнованиях</div>
+					<div class="news__descr">Студенты Университета международного бизнеса завоевывают первые места на международных соревнованиях</div>
 					<button class="btn btn_white btn_square btn_fs12 news__btn">Подробнее</button>
 				</div>
 				<div class="news__item">
@@ -179,8 +176,8 @@
 						</svg>	
 						<span>24.01.23</span>
 					</div>
-					<div class="news__subtitle">Новостной заголовок для университета</div>
-					<div class="news__descr">Knowledge generation, training of in-demand, successful specialists with moder...</div>
+					<div class="news__subtitle">Инновационные технологии в образовании</div>
+					<div class="news__descr">Университет международного бизнеса внедряет новые технологии в образовательный процесс</div>
 					<button class="btn btn_white btn_square btn_fs12 news__btn">Подробнее</button>
 				</div>
 			</div>
@@ -192,23 +189,23 @@
 			<div class="container">
 				<div class="expo__grid">
 					<div class="expo__item">
-						<span class="expo__item-title">Просвещение<br>2023</span>
-						<span class="expo__item-descr">Кстати, элементы политического процесса лишь добавляют фракционных.</span>
+						<span class="expo__item-title">Студенческий фестиваль: культура, творчество и развлечения</span>
+						<span class="expo__item-descr">Окунитесь в атмосферу студенческого фестиваля с культурными выступлениями и развлечениями для всех студентов.</span>
 						<button class="btn btn_transp btn_square btn_fs12">Подробнее</button>
 					</div>
 					<div class="expo__item expo__item_active">
-						<span class="expo__item-title">UIB Green House<br>Fest</span>
-						<span class="expo__item-descr">Противоположная точка зрения подразумевает, что интерактивные прототипы обнародованы.</span>
+						<span class="expo__item-title">Спортивный турнир: соперничество и командный дух</span>
+						<span class="expo__item-descr">Примите участие в нашем спортивном турнире, где вы сможете соперничать в различных видах спорта и укрепить командный дух.</span>
 						<button class="btn btn_transp btn_square btn_fs12">Подробнее</button>
 					</div>
 					<div class="expo__item">
-						<span class="expo__item-title">Business<br>Community</span>
-						<span class="expo__item-descr">Также как современная методология разработки говорит о возможностях как самодостаточных.</span>
+						<span class="expo__item-title">Карьерная неделя: смелые цели и успешные пути</span>
+						<span class="expo__item-descr">Получите полезные советы и информацию о карьерных возможностях на нашей карьерной неделе, встречайтесь с выпускниками и работодателями.</span>
 						<button class="btn btn_transp btn_square btn_fs12">Подробнее</button>
 					</div>
 					<div class="expo__item">
-						<span class="expo__item-title">UIB New Year's<br>Charity 2022</span>
-						<span class="expo__item-descr">Каждый из нас понимает очевидную вещь: понимание сути ресурсосберегающих технологий требует анализа.</span>
+						<span class="expo__item-title">Волонтерский проект: помощь и позитивное влияние</span>
+						<span class="expo__item-descr">Присоединяйтесь к нашему волонтерскому проекту и вместе с другими студентами оказывайте помощь тем, кто в ней нуждается, вносите позитивные изменения в общество.</span>
 						<button class="btn btn_transp btn_square btn_fs12">Подробнее</button>
 					</div>
 				</div>
@@ -361,111 +358,76 @@
 	</section>
 	<footer class="footer">
 		<div class="footer__main">
-			<div class="container">
-				<div class="footer__grid">
-					<div class="footer__logo">
-						<img class="footer__logo-img" src="img/logo.png" alt="logo">
-						<img class="footer__logo-text" src="img/logo-text.png" alt="logo-text">
-						<div class="footer__logo-social">
-							<a href="">
-								<img src="svg/instagram.svg" alt="instagram">
-							</a>
-							<a href="">
-								<img src="svg/tiktok.svg" alt="tiktok">
-							</a>
-							<a href="">
-								<img src="svg/facebook-f.svg" alt="facebook">
-							</a>
-							<a href="">
-								<img src="svg/youtube.svg" alt="youtube">
-							</a>
-							<a href="">
-								<img src="svg/whatsapp.svg" alt="whatsapp">
-							</a>
-							<a href="">
-								<img src="svg/telegram.svg" alt="telegram">
-							</a>
-						</div>
-					</div>
-						<div class="footer__item">
-							<div class="footer__title">Об Университете</div>
-							<a class="footer__link" href="">Миссия университета</a>
-							<a class="footer__link" href="">История университета</a>
-							<a class="footer__link" href="">Лицензия и аккредитации</a>
-							<a class="footer__link" href="">Администрация</a>
-							<a class="footer__link" href="">Центр обеспечения качества</a>
-							<a class="footer__link" href="">Ученый совет</a>
-							<a class="footer__link" href="">Вакансии</a>
-						</div>
-					<div class="footer__item">
-						<div class="footer__title">Поступающим</div>
-						<a class="footer__link" href="">Бакалавриат - APP</a>
-						<a class="footer__link" href="">Магистратура - APP</a>
-						<a class="footer__link" href="">MBA - APP</a>
-						<a class="footer__link" href="">DBA - APP</a>
-						<a class="footer__link" href="">Докторантура</a>
-						<a class="footer__link" href="">Перевод в UIB - Front</a>
-						<a class="footer__link" href="">Гостиницы и хостелы</a>
-					</div>
-					<div class="footer__item">
-						<div class="footer__title">Студентам</div>
-						<a class="footer__link" href="">Академический календарь</a>
-						<a class="footer__link" href="">Контакты</a>
-						<a class="footer__link" href="">Центр карьеры</a>
-						<a class="footer__link" href="">Памятка</a>
-						<a class="footer__link" href="">Кодекс чести</a>
-						<a class="footer__link" href="">Front UIB</a>
-					</div>
-					<div class="footer__col">
-						<div class="footer__item">
-							<div class="footer__title">Выпускникам</div>
-							<a class="footer__link" href="">История выпускников</a>
-							<a class="footer__link" href="">Центр карьеры</a>
-							<a class="footer__link" href="">Ассоциация выпускников</a>
-						</div>
-						<div class="footer__item">
-							<div class="footer__title">Информация</div>
-							<a class="footer__link" href="">Новости</a>
-							<a class="footer__link" href="">Контакты</a>
-						</div>
-					</div>
-					<div class="footer__contacts">
-						<div class="footer__contacts-title">
-							<div class="footer__title">Контакты</div>
-						</div>
-						<div class="footer__contacts-email">
-							<div class="footer__contacts-label">e-mail:</div>
-							<div class="footer__title">uib@uib.kz</div>
-						</div>
-						<div class="footer__contacts-tel">
-							<div class="footer__contacts-label">Телефон:</div>
-							<div class="footer__title">+ 7 (727) 259-80-05</div>
-						</div>
-						<div class="footer__contacts-address">
-							<div class="footer__contacts-label">Адрес:</div>
-							<div class="footer__title">г. Алматы, проспект Абая 8а (уг. ул. Назарбаева)</div>
-						</div>
-						<div class="footer__contacts-open">
-							<div class="footer__contacts-label">Режим работы:</div>
-							<div class="footer__title">Понедельник — Пятница с 09.00 до 18.00</div>
-						</div>
-						<div class="footer__btn">
-							<img src="svg/chevron-up.svg" alt="up">
-						</div>
-					</div>
+			<div class="footer__btn">
+				<img src="svg/chevron-up.svg" alt="up">
+			</div>
+			<div class="footer__grid">
+				<div class="footer__logo">
+					<img class="footer__logo-img" src="img/logo.png" alt="logo">
+					<img class="footer__logo-text" src="img/logo-text.png" alt="logo-text">
+				</div>
+				<ul class="footer__menu">
+					<li>
+						<a href="" class="footer__link">Об Университете</a>
+					</li>
+					<li>
+						<a href="" class="footer__link">События</a>
+					</li>
+					<li>
+						<a href="" class="footer__link">Новости</a>
+					</li>
+					<li>
+						<a href="" class="footer__link">Студентам</a>
+					</li>
+					<li>
+						<a href="" class="footer__link">Контакты</a>
+					</li>
+				</ul>
+				<div class="footer__social">
+					<a href="">
+						<img src="svg/instagram.svg" alt="instagram">
+					</a>
+					<a href="">
+						<img src="svg/tiktok.svg" alt="tiktok">
+					</a>
+					<a href="">
+						<img src="svg/facebook-f.svg" alt="facebook">
+					</a>
+					<a href="">
+						<img src="svg/youtube.svg" alt="youtube">
+					</a>
+					<a href="">
+						<img src="svg/whatsapp.svg" alt="whatsapp">
+					</a>
+					<a href="">
+						<img src="svg/telegram.svg" alt="telegram">
+					</a>
 				</div>
 			</div>
 		</div>
 		<div class="footer__bottom">
-			<div class="container">
-				<div class="footer__bottom-flex">
-					<div class="footer__bottom-text">© ТОО «Университет международного бизнеса» 1992-2023</div>
-					<div class="footer__bottom-text">Сайт разработан в компании BestSolutions</div>
+			<div class="footer__contacts">
+				<div class="footer__bold">ТОО «Университет международного бизнеса»</div>
+				<div class="footer__contacts-email">
+					<div class="footer__contacts-label">e-mail:</div>
+					<div class="footer__bold">uib@uib.kz</div>
+				</div>
+				<div class="footer__contacts-tel">
+					<div class="footer__contacts-label">Телефон:</div>
+					<div class="footer__bold">+ 7 (727) 259-80-05</div>
+				</div>
+				<div class="footer__contacts-address">
+					<div class="footer__contacts-label">Адрес:</div>
+					<div class="footer__bold">г. Алматы, проспект Абая 8а</div>
+				</div>
+				<div class="footer__contacts-open">
+					<div class="footer__contacts-label">Режим работы:</div>
+					<div class="footer__bold">Понедельник — Пятница с 09.00 до 18.00</div>
 				</div>
 			</div>
 		</div>
 	</footer>
 
-	<script src="js/script.js"></script>
+	<script src="js/bundle.js"></script>
 </body>
 </html>
