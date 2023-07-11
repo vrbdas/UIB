@@ -7,10 +7,11 @@
     }
     &__main-block {
         background: #F2F4F7;
+        padding-bottom: 80px;
     }
     &__grid {
         display: grid;
-        grid-template-columns: 321px 1fr;
+        grid-template-columns: 1fr 3fr;
         gap: 72px;
     }
     &__text {
@@ -36,10 +37,6 @@
     }
     &__slider {
         position: relative;
-        &-inner {
-            display: flex;
-            gap: 40px;
-        }
         &-slide {
             display: flex;
             flex-direction: column;
@@ -74,4 +71,16 @@
             transform: translateY(-50%) translateX(50%);
         }
     }
+}
+
+.my-slider {
+    img {
+        max-width: 230px;
+        max-height: 326px;
+        object-fit: cover;
+    }
+}
+.wr {
+    width: 800px; 
+    height: 326px;
 }
