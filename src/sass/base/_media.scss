@@ -13,11 +13,31 @@
             gap: 30px;
         }
     }
+    .licence {
+        &__slider {
+            width: 500px;
+        }
+    }
+    .social {
+        &__slider {
+            &-slide {
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 992px) {
     .container {
         max-width: 720px;
+    }
+    .licence {
+        &__slider {
+            width: 300px;
+        }
     }
 }
 

@@ -3734,14 +3734,24 @@ __webpack_require__.r(__webpack_exports__);
 
 const slider = (0,tiny_slider__WEBPACK_IMPORTED_MODULE_0__.tns)({
   container: '.licence__tns',
-  items: 3,
+  items: 1,
   slideBy: 1,
   autoplay: false,
   nav: false,
   loop: false,
-  gutter: 20,
   prevButton: '.licence__slider-prev',
   nextButton: '.licence__slider-next',
+  responsive: {
+    768: {
+      items: 1
+    },
+    992: {
+      items: 2
+    },
+    1200: {
+      items: 3
+    },
+  }
 });
 
 
