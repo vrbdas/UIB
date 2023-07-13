@@ -39,6 +39,69 @@
             width: 300px;
         }
     }
+    .header {
+        grid-template-columns: repeat(2,auto) 1fr;
+        &__menu {
+            display: none;
+        }
+        &__btn {
+            display: none;
+        }
+    }
+    .hamburger {
+        display: flex;
+    }
+    .promo__nav {
+        display: none;
+    }
+    .about {
+        &__grid {
+            grid-template-columns: 1fr;
+        }
+    }
+    .events {
+        &__grid {
+            grid-template-columns: 1fr;
+        }
+    }
+    .expo {
+        &__grid {
+            grid-template-columns: repeat(2,1fr);
+        }
+        &__item {
+            padding: 20px;
+            &:hover {
+                border: none;
+            }
+        }
+    }
+    .faq {
+        &__grid {
+            grid-template-columns: 1fr;
+        }
+        &__img {
+            display: none;
+        }
+    }
+    .social {
+        &__grid {
+            grid-template-columns: 1fr;
+        }
+    }
+    .contacts {
+        &__grid {
+            grid-template-columns: 1fr;
+        }
+        &__map {
+            min-height: 400px;
+        }
+    }
+    .footer {
+        &__menu {
+            flex-direction: column;
+            gap: 0;
+        }
+    }
 }
 
 @media (max-width: 768px) {

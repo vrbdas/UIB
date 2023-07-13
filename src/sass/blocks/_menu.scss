@@ -1,0 +1,12 @@
+.hamburger {
+    width: 30px;
+    height: 20px;
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    justify-self: end;
+    span {
+        border: 2px solid #000;
+    }
+}
