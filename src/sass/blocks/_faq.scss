@@ -1,16 +1,9 @@
 .faq {
     padding-top: 80px;
-    &__title {
+    &__header {
         display: flex;
-        align-items: end;
+        align-items: flex-start;
         justify-content: space-between;
-        margin-bottom: 24px;
-        span {
-            font-weight: 500;
-            font-size: 32px;
-            line-height: 38px;
-            color: #212121;
-        }
         button {
             width: 160px;
             height: 44px;

@@ -1,7 +1,7 @@
 .expo {
     padding-top: 80px;
     &__wrapper {
-        height: 550px;
+        min-height: 550px;
         background: url(../img/expo-bg.png) center center/cover no-repeat;
         display: grid;
         grid-template-columns: 1fr auto 1fr;

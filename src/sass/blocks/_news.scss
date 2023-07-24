@@ -1,16 +1,8 @@
 .news {
     padding-top: 60px;
-    &__title {
+    &__header {
         display: flex;
-        align-items: center;
         justify-content: space-between;
-        margin-bottom: 28px;
-        span {
-            font-weight: 700;
-            font-size: 32px;
-            line-height: 38px;
-            color: #212121;
-        }
         button {
             width: 160px;
             height: 44px;

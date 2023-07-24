@@ -37,21 +37,19 @@
 		<div class="promo__slider">
 			<div class="promo__slider-wrapper">
 				<div class="promo__slider-inner">
-					<div class="promo__slider-slide">
-						<img class="promo__slider-slide-bg" src="img/slide.png" alt="bg">
-						<img class="promo__slider-slide-logo" src="img/unicon.png" alt="unicon">
-						<div class="promo__slider-slide-header">Результаты 3 этапа олимпиады unicon</div>
-						<div class="promo__slider-slide-subheader">Все подробности можно узнать, перейдя по кнопке "Подробнее"</div>
-						<button class="btn btn_dark btn_oval btn_fs15">Подробнее</button>
+					<div class="promo__slide">
+						<picture class="promo__slide-bg">
+							<source srcset="img/slide_1_mobile.jpg" media="(max-width: 768px)">
+							<source srcset="img/slide_1.jpg">
+							<img src="img/slide_1.jpg" alt="bg">
+						</picture>
+						<div class="promo__slide-content">
+							<img class="promo__slide-logo" src="img/unicon.png" alt="unicon">
+							<div class="promo__slide-header">Результаты 3 этапа олимпиады unicon</div>
+							<div class="promo__slide-subheader">Все подробности можно узнать, перейдя по кнопке "Подробнее"</div>
+							<button class="btn btn_dark btn_oval btn_fs15">Подробнее</button>
+						</div>
 					</div>
-					<!-- <div class="promo__slider-slide">
-						<img class="promo__slider-slide-bg" src="img/slide.png" alt="bg">
-						<div class="promo__slider-slide-header">Slide 2</div>
-					</div>
-					<div class="promo__slider-slide">
-						<img class="promo__slider-slide-bg" src="img/slide.png" alt="bg">
-						<div class="promo__slider-slide-header">Slide 3</div>
-					</div> -->
 				</div>
 			</div>
 			<button class="btn btn_dark btn_round promo__slider-prev">
@@ -77,7 +75,7 @@
 		<div class="container">
 			<div class="about__grid">
 				<div>
-					<h1 class="about__title">Кенжегали Сагадиев<br>Университет международного бизнеса</h1>
+					<h1 class="title about__title">Кенжегали Сагадиев<br>Университет международного бизнеса</h1>
 					<div class="about__subtitle">Миссия</div>
 					<p class="about__descr">Генерация знаний, подготовка востребованных, успешных специалистов с современными компетенциями и активное влияние на социально-экономическое развитие Казахстана в меняющемся мире.</p>
 				</div>
@@ -89,7 +87,7 @@
 	</section>
 	<section class="events">
 		<div class="container">
-			<h2 class="events__title">События</h2>
+			<h2 class="title events__title">События</h2>
 			<div class="events__grid">
 				<div class="events__card">
 					<div class="events__card-img">
@@ -144,10 +142,10 @@
 	</section>
 	<section class="news">
 		<div class="container">
-			<h2 class="news__title">
-				<span>Последние новости</span>
+			<div class="news__header">
+				<h2 class="title">Последние новости</h2>
 				<button class="btn btn_white btn_oval btn_fs14">Все новости</button>
-			</h2>
+			</div>
 			<div class="news__grid">
 				<div class="news__item">
 					<img class="news__img" src="img/news1.png" alt="news1">
@@ -220,10 +218,10 @@
 	</section>
 	<section class="faq">
 		<div class="container">
-			<h2 class="faq__title">
-				<span>Часто задаваемые вопросы</span>
+			<div class="faq__header">
+				<h2 class="title faq__title">Часто задаваемые вопросы</h2>
 				<button class="btn btn_grey btn_oval btn_fs14">Консультация</button>
-			</h2>
+			</div>
 			<div class="faq__grid">
 				<img class="faq__img" src="img/apple.png" alt="apple">
 				<div class="faq__list">
@@ -261,7 +259,7 @@
 			<div class="container">
 				<div class="licence__grid">
 					<div class="licence__text">
-						<h2>Лицензии и аккредитации</h2>
+						<h2 class="title licence__title">Лицензии и аккредитации</h2>
 						<span>Университет представляет информацию официальных лицензий и аккредитаций, полученных университетом от правительственных организаций и аккредитирующих агентств.</span>
 						<button class="btn btn_grey btn_oval btn_fs14">Вся документация</button>
 					</div>
@@ -311,7 +309,7 @@
 		<div class="container">
 			<div class="social__grid">
 				<div class="social__youtube">
-					<h2 class="social__youtube-title">Мы в YouTube</h2>
+					<h2 class="title social__youtube-title">Мы в YouTube</h2>
 					<div class="social__slider">
 						<div class="social__slider-wrapper">
 							<div class="social__slider-inner">
@@ -334,7 +332,7 @@
 					<button class="btn btn_white btn_oval btn_fs12 social__youtube-btn">Перейти в YouTube</button>
 				</div>
 				<div class="social__instagram">
-					<h2 class="social__instagram-title">Мы в Instagram</h2>
+					<h2 class="title social__instagram-title">Мы в Instagram</h2>
 					<div class="social__instagram-img">
 						<img src="img/instagram-preview.png" alt="instagram-preview">
 					</div>

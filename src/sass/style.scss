@@ -13,6 +13,14 @@
 	margin: 0 auto;
 }
 
+.title {
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 38px;
+	color: #212121;
+	margin-bottom: 30px;
+}
+
 @import 'base/buttons';
 
 @import 'blocks/header';
