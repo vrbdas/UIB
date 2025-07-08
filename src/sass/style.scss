@@ -1,5 +1,5 @@
 @import 'libs/bootstrap-reboot.min';
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import 'libs/tiny-slider.css';
 
 * {
@@ -8,6 +8,11 @@
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
 }
+
+html {
+	scroll-behavior: smooth;
+}
+
 .container {
 	width: 1160px;
 	margin: 0 auto;
@@ -19,6 +24,11 @@
 	line-height: 38px;
 	color: #212121;
 	margin-bottom: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: unset;
 }
 
 @import 'base/buttons';

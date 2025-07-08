@@ -54,6 +54,9 @@
             top: 50%;
             left: 0;
             transform: translateY(-50%);
+            &:disabled {
+                visibility: hidden;
+            }
         }
         &-next {
             width: 44px;
@@ -62,18 +65,9 @@
             top: 50%;
             right: 0;
             transform: translateY(-50%);
+            &:disabled {
+                visibility: hidden;
+            }
         }
     }
-}
-
-.my-slider {
-    img {
-        max-width: 230px;
-        max-height: 326px;
-        object-fit: cover;
-    }
-}
-.wr {
-    width: 800px; 
-    height: 326px;
 }

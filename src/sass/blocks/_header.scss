@@ -48,6 +48,11 @@
             appearance: none;
             background-color: #fff;
         }
+        option {
+            &:disabled {
+                color: #bebebe;
+            }
+        }
     }
     &__menu {
         display: flex;
@@ -60,16 +65,16 @@
         font-size: 12px;
         line-height: 14px;
         color: #212121;
-        li {
+        &-link {
             position: relative;
             &::after {
-                content: '';
+                content: "";
                 position: absolute;
                 right: -9px;
-                top: 6px;
-                width: 3px;
-                height: 3px;
-                background: #1C7E66;
+                top: 5px;
+                width: 4px;
+                height: 4px;
+                background: #1c7e66;
                 border-radius: 100%;
             }
         }
